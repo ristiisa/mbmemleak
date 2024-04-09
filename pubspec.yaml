@@ -1,0 +1,22 @@
+name: mbmemleak
+description: "A new Flutter project."
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  mapbox_maps_flutter:
+    git:
+        ref: 953a50436f94ea0295c1637ceb343ffdf9c252df
+        url: https://github.com/mapbox/mapbox-maps-flutter.git
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+flutter:
+  uses-material-design: true
