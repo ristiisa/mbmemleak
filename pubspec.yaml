@@ -11,7 +11,7 @@ dependencies:
   cupertino_icons: ^1.0.6
   mapbox_maps_flutter:
     git:
-        ref: 953a50436f94ea0295c1637ceb343ffdf9c252df
+        ref: 0eed5d8cdcd34687a48019699b9f7dd7c8dc465e
         url: https://github.com/mapbox/mapbox-maps-flutter.git
 
 dev_dependencies:
@@ -20,3 +20,6 @@ dev_dependencies:
   flutter_lints: ^3.0.0
 flutter:
   uses-material-design: true
+
+  assets:
+    - path.json
